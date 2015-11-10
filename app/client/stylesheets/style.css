@@ -1,0 +1,29 @@
+body, footer
+{
+    font-family: Open Sans, sans-serif;
+    color: #3156A1;
+}
+
+.header-image
+{
+    background-image: url('/images/digits-header.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.navbar
+{
+    border-radius: 0px;
+    background-color: #3156A1;
+    border-color: #3156A1;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: #91AEE6;
+}
+
+.navbar a.dropdown-toggle
+{
+    color: #91AEE6;
+}
