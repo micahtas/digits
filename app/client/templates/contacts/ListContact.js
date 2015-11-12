@@ -7,3 +7,9 @@ Template.ListContact.helpers({
     return Contact.find();
   }
 });
+
+Template.ListContact.events({
+  'click .delete': function() {
+      Meteor.call("deleteContact", this._id);
+  }
+});
